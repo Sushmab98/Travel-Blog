@@ -1,0 +1,160 @@
+.head
+{
+  background-color: #004d66;
+  color: white;
+  text-align: center;
+}
+.fullcontent
+{
+  background-color:#e6f9ff ;
+}
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #004d66;
+	font-size: 30px;
+	
+}
+nav ul li a:hover
+{
+	background-color: lightgray;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 50px;
+  right: 200px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.article1
+{
+  border: none;
+  position: relative;
+  left: 20px;
+  top: 80px;
+  display: block;
+  width: 40%;
+  height: 350px;
+  background-color: #004d66;
+  color:  white;
+
+}
+.article1 span
+{
+  position: relative;
+  left: 30px;
+  color: white;
+}
+#article4
+{
+  position: relative;
+  left: 50px;
+  top: 0px;
+  color: white;
+}
+#article4 ul li
+{
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+}
+.right
+{
+  width:55%;
+  height: 400px;
+  float: right;
+  position: relative;
+  top: -295px;
+  border: none;
+  background-color:lightgray;
+
+}
+.input-row
+{
+  justify-content: space-between;
+  margin-bottom: 40px;
+  display: inline-block;
+  position: relative;
+  left: 20px;
+
+}
+.right h2
+{
+  color: #004d66;
+  font-size: 25px;
+}
+input
+{
+  width: 550px;
+  border: none;
+  border-bottom: 1px solid black;
+  position: relative;
+  top: 20px;
+  background: none;
+}
+textarea
+{
+  width: 600px;
+  height: 100px;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+
+}
+button
+{
+  align-items: center;
+  background-color:#004d66 ;
+  width: 100px;
+  height: 35px;
+  border: 1px solid black;
+  color: white;
+  font-size: 20px;
+}
+.footer
+{
+  text-align: center;
+  position: relative;
+  top: 150px;
+  background-color: #004d66;
+  color: white;
+
+}
+#text
+{
+  position: relative;
+  left: 300px;
+}

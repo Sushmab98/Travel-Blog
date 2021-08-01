@@ -1,0 +1,296 @@
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #004d66;
+	font-size: 30px;
+	
+}
+nav ul li a:hover
+{
+	background-color: lightgray;
+	border: none;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 50px;
+  right: 200px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.box{
+        position: relative; 
+        top: 0px;
+        background-color: #004d66;
+        width: 100%;
+        height: 400px;
+    }
+.box h1
+{
+        position: absolute;
+        z-index: 1;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: -60px; 
+        text-align: center;
+        width: 60%;
+        color: white;
+        font-size: 100px;
+        
+}
+.box button
+{
+  background-color: white;
+  color: #004d66;
+  border: none;
+  border-radius: 20px;
+  box-shadow: darkgray;
+  font-size: 20px;
+  position: relative;
+  top: 300px;
+  left: 580px;
+  width: 230px;
+  height: 60px;
+}
+
+.outer
+{
+  width: 96%;
+  height: 500px;
+  border: none;
+  border-right: 2px solid #004d66;
+  border-left:  2px solid #004d66;
+  border-bottom: 2px solid #004d66  ;
+  box-shadow: 10px  10px 10px darkgray;
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+  padding: 50px;
+  margin-bottom: 100px;
+
+}
+.bg-image
+{
+  position: relative;
+  float: left;
+}
+
+.heading
+{
+  font-size: 50px;
+  color: #004d66;
+}
+.details
+{
+  font-size: 20px;
+  font-style: italic;
+  word-spacing: 4px;
+  margin-bottom: 100px;
+}
+.btn
+{
+  border: none;
+  background-color: #004d66 ;
+  color: white;
+  border-radius: 20px;
+  box-shadow: darkgray;
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 230px;
+  height: 60px;
+
+
+}
+.outer1{
+  width: 400px;
+  height: 800px;
+  position: absolute;
+  top: 700px;
+  border: none;
+  /*border-right: 2px solid #004d66;
+  border-left:  2px solid #004d66;
+  border-bottom: 2px solid #004d66  ;*/
+  box-shadow: 10px  10px 10px darkgray;
+  
+}
+.bg-image1
+{
+  position: relative;
+  float: left;
+}
+
+.heading1
+{
+  font-size: 50px;
+  color: #004d66;
+  position: relative;
+  top: 40px;
+}
+.details1
+{
+  font-size: 20px;
+  font-style: italic;
+  word-spacing: 4px;
+  margin-bottom: 100px;
+}
+.btn1
+{
+  border: none;
+  background-color: #004d66 ;
+  color: white;
+  border-radius: 20px;
+  box-shadow: darkgray;
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 230px;
+  height: 60px;
+
+
+}
+.outer2{
+  width: 400px;
+  height: 800px;
+  position: absolute;
+  top:0px;
+  border: none;
+  /*border-right: 2px solid #004d66;
+  border-left:  2px solid #004d66;
+  border-bottom: 2px solid #004d66  ;*/
+  box-shadow: 10px  10px 10px darkgray;
+  left: 450px;
+  
+}
+.bg-image2
+{
+  position: relative;
+  float: left;
+}
+
+.heading2
+{
+  font-size: 50px;
+  color: #004d66;
+  position: relative;
+  top: 40px;
+}
+.details2
+{
+  font-size: 20px;
+  font-style: italic;
+  word-spacing: 4px;
+  margin-bottom: 100px;
+}
+.btn2
+{
+  border: none;
+  background-color: #004d66 ;
+  color: white;
+  border-radius: 20px;
+  box-shadow: darkgray;
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 230px;
+  height: 60px;
+
+
+}
+.outer3{
+  width: 400px;
+  height: 800px;
+  position: absolute;
+  top:0px;
+  border: none;
+  /*border-right: 2px solid #004d66;
+  border-left:  2px solid #004d66;
+  border-bottom: 2px solid #004d66  ;*/
+  box-shadow: 10px  10px 10px darkgray;
+  left: 450px;
+  
+}
+.bg-image3
+{
+  position: relative;
+  float: left;
+}
+
+.heading3
+{
+  font-size: 45px;
+  color: #004d66;
+  position: relative;
+  top: 40px;
+}
+.details3
+{
+  font-size: 20px;
+  font-style: italic;
+  word-spacing: 4px;
+  margin-bottom: 100px;
+}
+.btn3
+{
+  border: none;
+  background-color: #004d66 ;
+  color: white;
+  border-radius: 20px;
+  box-shadow: darkgray;
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 230px;
+  height: 60px;
+
+
+}
+.quote
+{
+  background-color: #004d66;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+.quote p
+{
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+
+}

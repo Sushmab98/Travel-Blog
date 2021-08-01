@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ header {
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://i.postimg.cc/gj5LrZsX/back-img.jpg);
+	height: 100vh;
+	max-width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding :5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.logo img{
+	float: left;
+	max-width: 150px;
+	height: auto;
+	
+}
+.main
+{
+	max-width: 1200px;
+	margin: auto;
+}
+.title
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	
+}
+.title h1
+{
+	color: #fff;
+	font-size: 70px;
+	font-family: lucida handwriting,brushscript mt,cursive;
+}
+.btn
+{
+	border: 1px solid #fff;
+	border-radius:25px;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+#quote{
+	border: 2px ;
+	border-radius: 15px 50px;	
+	position: relative;
+	max-width: 400px;
+	padding: 50px;
+	background: rgba(255,255,255,0.6);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+	position: absolute;
+	top: 50%;
+	right: 60%;
+}
+
+#quote h3{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 40px;
+	color: #000;
+}
+
+
